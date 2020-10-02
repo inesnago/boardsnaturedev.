@@ -1,0 +1,37 @@
+body{
+    padding: 30px;
+    font-family: 'Barlow', sans-serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.hero-image-div{
+    width: 100%;
+}
+
+.hero-image{
+    width: inherit;
+}
+
+.main-nav-ul{
+    text-align: left;
+    padding: 0px;
+    margin-top: 4px;
+}
+
+.main-nav-ul>li{
+    display: inline-block;
+    padding: 0px 8px;
+    font-size: 18px;
+}
+
+.sub-nav-ul{
+    display: none;
+}
+
+.footer-nav-ul{
+    padding: 0px;
+    text-align: center;
+}
