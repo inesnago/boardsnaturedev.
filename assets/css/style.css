@@ -34,6 +34,7 @@ li{
 
 footer{
     text-align: center;
+    margin-top: 50px;
 }
 
 #show-ul{
@@ -94,4 +95,15 @@ a{
     text-align: center;
     margin: 8px;
     line-height: 1.8;
+}
+
+/*-----------dark mode-------------*/
+
+.body-dark{
+    background: rgb(33,33,33);
+    color: white;
+}
+
+.a-dark{
+    color: white;
 }
