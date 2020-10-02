@@ -97,13 +97,26 @@ a{
     line-height: 1.8;
 }
 
-/*-----------dark mode-------------*/
-
-.body-dark{
-    background: rgb(33,33,33);
-    color: white;
+.card{
+    text-align: center;
+}
+.card>h4{
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-.a-dark{
-    color: white;
+.logo-main{
+    padding: 14px 0px;
+}
+
+.col{
+    width: 40%;
+    display: inline-block;
+}
+
+.col>img{
+    width: inherit;
 }
