@@ -1,6 +1,7 @@
 body{
     padding: 30px;
     font-family: 'Barlow', sans-serif;
+    font-weight: 300;
 }
 
 li{
@@ -16,22 +17,75 @@ li{
 }
 
 .main-nav-ul{
-    text-align: left;
+    text-align: center;
     padding: 0px;
     margin-top: 4px;
 }
 
 .main-nav-ul>li{
     display: inline-block;
-    padding: 0px 8px;
+    padding: 0px 16px;
     font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+    vertical-align: middle;
+}
+
+footer{
+    text-align: center;
 }
 
 .sub-nav-ul{
     display: none;
+    position: relative;
+}
+
+
+.footer-nav{
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+    text-align: center;
 }
 
 .footer-nav-ul{
     padding: 0px;
     text-align: center;
+}
+
+.div-footer{
+    margin-top: 28px;
+}
+
+.copyright{
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+.social-links>li{
+    display: inline-block;
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.terms>li{
+    padding: 4px 0px;
+}
+
+.shade-dark{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: initial;
+}
+
+.hero-message{
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 8px;
+    line-height: 1.8;
 }
