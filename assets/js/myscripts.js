@@ -15,5 +15,9 @@ $(document).ready(function(){
         $(this).removeClass("shade-dark");
     });
 
+    $(".logo-title").click(function(){
+        $(this).next("div").slideToggle("slow");
+    })
+
 })
 
