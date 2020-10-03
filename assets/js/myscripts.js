@@ -16,7 +16,7 @@ $(document).ready(function(){
     });
 
     $(".logo-title").click(function(){
-        $(this).next("div").slideToggle("slow");
+        $(this).next(".card").fadeToggle("slow");
     })
 
 })

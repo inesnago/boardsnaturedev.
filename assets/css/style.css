@@ -104,11 +104,11 @@ a{
 .logo-title{
     font-size: 18px;
     font-weight: 300;
-    font-style: italic;
     letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
     padding: 10px 0px;
+    padding-bottom: 0px;
 }
 
 .logo-main{
@@ -162,7 +162,21 @@ a{
     width: 100%;
 }
 
-#black{
+.black{
     background: #212121;
     border: 6px solid #212121;
+}
+
+.logo-p{
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 26px;
+    padding: 0px 100px;
+}
+
+@media only screen and (min-width: 1000px){
+    .logo-p{
+        padding: 0px 250px;
+    }
 }
