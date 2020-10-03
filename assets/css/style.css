@@ -120,3 +120,42 @@ a{
 .col>img{
     width: inherit;
 }
+
+/*----testing-----*/
+
+.row{
+    width:100%
+    margin: 12px 0px;
+}
+
+.col-one, .col-three{
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+}
+
+.col-one>img{
+    display: inline-block;
+    width: 100%;
+}
+
+#smaller{
+    width: 80%;
+}
+
+.col-two{
+    width: 100%;
+    text-align: center;
+}
+
+.col-two>img{
+    width: 70%;
+}
+
+.col-three>img{
+    width: 100%;
+}
+
+.contain{
+    height: 100%;
+}
