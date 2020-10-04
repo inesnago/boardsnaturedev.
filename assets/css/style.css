@@ -195,3 +195,7 @@ a{
 .col-article-one>img{
     width: 100%;
 }
+
+.noBold{
+    font-weight: 300;
+}
