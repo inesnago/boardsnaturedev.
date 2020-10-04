@@ -7,7 +7,7 @@ $(document).ready(function(){
         $(".sub-nav-ul").hide("slow");
     });
 
-    $('a').mouseenter(function(){
+    $("a").mouseenter(function(){
         $(this).addClass("shade-dark");
     });
 
@@ -16,8 +16,8 @@ $(document).ready(function(){
     });
 
     $(".logo-title").click(function(){
-        $(this).next(".card").fadeToggle("slow");
-    })
+        $(this).next(".small-card").fadeToggle("slow");
+    });
 
 })
 
