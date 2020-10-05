@@ -35,7 +35,7 @@ li{
 footer{
     text-align: center;
     position: relative;
-    top: 15vw;
+    top: 8vw;
 }
 
 #show-ul{
@@ -88,6 +88,10 @@ footer{
 a{
     text-decoration: none;
     color: initial;
+}
+
+section{
+    text-align: center;
 }
 
 .hero-message{
@@ -184,7 +188,7 @@ a{
 }
 
 .main-card{
-    padding-bottom: 60px;
+    padding: 60px 0px;
     text-align: center;
 }
 
