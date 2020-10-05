@@ -34,8 +34,6 @@ li{
 
 footer{
     text-align: center;
-    position: relative;
-    top: 8vw;
 }
 
 #show-ul{
@@ -177,8 +175,9 @@ section{
     font-weight: 200;
     text-align: center;
     letter-spacing: 2px;
-    margin-bottom: 36px;
+    margin: 40px 0px;
     padding: 0px 100px;
+    font-size: 18px;
 }
 
 @media only screen and (min-width: 1000px){
