@@ -34,7 +34,8 @@ li{
 
 footer{
     text-align: center;
-    margin-top: 50px;
+    position: relative;
+    top: 15vw;
 }
 
 #show-ul{
@@ -196,5 +197,4 @@ a{
 .col-article-one>img{
     width: 100%;
 }
-
 
