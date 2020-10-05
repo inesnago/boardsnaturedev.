@@ -201,3 +201,58 @@ section{
     width: 100%;
 }
 
+/*---media queries -----*/
+
+
+
+@media only screen and (max-width:820px) and (min-width:700px){
+    body{
+        padding: 30px 10px;
+        font-size: 16px;
+    }
+
+    .main-nav-ul>li{
+        padding: 0px 8px;
+        font-size: 16px;
+    }
+
+    .logo-p, .logo-title{
+        font-size: 14px;
+    }
+
+    .main-card{
+        padding: 30px 0px;
+    }
+    
+    #footer-img{
+        width: 60px;
+    }
+}
+
+@media only screen and (max-width:699px){
+    body{
+        font-size: 14px;
+        padding: 30px 10px;
+    }
+
+    .main-nav-ul>li{
+        padding: 0px 8px;
+        font-size: 14px;
+    }
+
+    #main-img{
+        width:80px;
+    }
+
+    .logo-p, .logo-title{
+        font-size: 14px;
+    }
+
+    .main-card{
+        padding: 30px 0px;
+    }
+    
+    #footer-img{
+        width: 60px;
+    }
+}
