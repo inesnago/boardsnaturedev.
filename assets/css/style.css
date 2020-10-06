@@ -357,6 +357,7 @@ section{
 
     .logo-p{
         padding: 0px 10px;
+        letter-spacing: 3px;
     }
 
     .col-article-one{
@@ -375,8 +376,60 @@ section{
     .col-article-one{
         padding-bottom: 10px;
     }
-    
+}
 
 
-    
+.form-div{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 16px;
+    padding-bottom: 20px;
+}
+
+.form>input{
+    width: 50%;
+    font-size: 16px;
+    font-family: 'Barlow', 'sans-serif';
+    letter-spacing: 2px;
+}
+
+.form>label{
+    display: block;
+    padding: 6px 0px;
+    text-transform: lowercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.form>textarea{
+    width: 50%;
+    height: 150px;
+    margin-top: 10px;
+    font-family: 'Barlow', 'sans-serif';
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+
+.contact-img{
+    width: 100%;
+    display: block;
+}
+
+.contact-img>img{
+    width: 100%;
+    height: 30vw;
+    object-position: top;
+    object-fit: cover;
+}
+
+.submit-button{
+    padding: 6px 0px;
+    margin-top: 6px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+form{
+    text-align: center;
 }
