@@ -256,3 +256,53 @@ section{
         width: 60px;
     }
 }
+
+@media only screen and (min-width:576px){ /* do not display small logo and toggle menu on big screens*/
+    .toggle-icon{
+        display: none;
+    }
+
+    #small-screen-logo{
+        display: none;
+    }
+}
+
+@media only screen and (max-width:575px){ /*--- hide big logo and full menu set up on small screens and add toggle menu*/
+
+    #main-img{
+        display: none;
+    }
+
+    .main-nav-ul>li{
+        display: block;
+        text-align: left;
+    }
+
+    .main-nav{
+        width: 45%;
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .main-nav-ul{
+        display:none;
+    }
+
+    .toggle-icon{
+        display: inline-block;
+        font-size: 32px;
+        color: gray;
+        position: relative;
+        top: 20px;
+        left: 10px;
+        width: 45%;
+    }
+
+    .small-logo-div{
+        text-align: right;
+    }
+
+    #small-logo-screen{
+        vertical-align: top;
+    }
+}
