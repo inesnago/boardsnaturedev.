@@ -102,7 +102,6 @@ section{
 
 .small-card{
     text-align: center;
-    display: none;
 }
 
 .logo-title{
@@ -321,7 +320,7 @@ section{
     }
 
     header{
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
 
     .menu-modal{
@@ -363,6 +362,21 @@ section{
     .col-article-one{
         width: 90%;
     }
+
+    main{
+        margin-top: 30px;
+    }
+
+    .col-one-mobile{
+        width: 100%;
+        padding-bottom: 10px;
+    }
+
+    .col-article-one{
+        padding-bottom: 10px;
+    }
+    
+
 
     
 }
