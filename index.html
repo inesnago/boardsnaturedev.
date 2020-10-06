@@ -7,7 +7,7 @@
     <script src="https://kit.fontawesome.com/b39ca5d2ff.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Boards Nature Dev | Web Development & Design</title>
+    <title>Boards Nature Dev. | Web Development & Design</title>
 </head>
 
 <body>
@@ -17,29 +17,29 @@
         <div class="toggle-icon"><!--small screen (<575px) toggle menu ACTIVE-->
             <i class="fas fa-bars"></i>
         </div>
-
-        <nav class="main-nav">
-            <ul class="main-nav-ul">
-                <li><a href="logo.html">Logo & Branding</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li> <!--display: none in smaller screens DEACTIVATED-->
-                    <img src="assets/images/logo.png" id ="main-img" alt="mylogo" width="120">
-                </li>
-                <li><a href="dev.html">Web Development</a></li>
-                <li id="show-ul">Other
-                    <ul class="sub-nav-ul">
-                        <li><a href="#">Surf & Sea</a></li>
-                        <li><a href="#">Skate</a></li>
-                        <li><a href="#">Mountains</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-
         <div class="small-logo-div">
-            <img src="assets/images/logo.png" id="small-screen-logo" alt="mylogo" width="100">
+            <a href="index.html"><img src="assets/images/logo.png" id="small-screen-logo" alt="mylogo" width="100"></a>
         </div>
 
+        <div class="menu-modal">
+            <nav class="main-nav">
+                <ul class="main-nav-ul">
+                    <li><a href="logo.html">Logo & Branding</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li id="hide"> <!--display: none in smaller screens DEACTIVATED-->
+                        <img src="assets/images/logo.png" id="main-img" alt="mylogo" width="120">
+                    </li>
+                    <li><a href="dev.html">Web Development</a></li>
+                    <li id="show-ul"><a href="#">Other</a>
+                        <ul class="sub-nav-ul">
+                            <li><a href="#">Surf & Sea</a></li>
+                            <li><a href="#">Skate</a></li>
+                            <li><a href="#">Mountains</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 

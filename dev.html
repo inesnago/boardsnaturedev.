@@ -13,23 +13,32 @@
 <body>
 
     <header>
-        <nav class="main-nav">
-            <ul class="main-nav-ul">
-                <li><a href="logo.html">Logo & Branding</a></li>
-                <li><a href="articles.html">Articles</a></li>
-                <li>
-                    <img src="assets/images/logo.png" id ="main-img" alt="mylogo" width="120">
-                </li>
-                <li><a href="dev.html">Web Development</a></li>
-                <li id="show-ul">Other
-                    <ul class="sub-nav-ul">
-                        <li><a href="#">Surf & Sea</a></li>
-                        <li><a href="#">Skate</a></li>
-                        <li><a href="#">Mountains</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+        <div class="toggle-icon"><!--small screen (<575px) toggle menu ACTIVE-->
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="small-logo-div">
+            <a href="index.html"><img src="assets/images/logo.png" id="small-screen-logo" alt="mylogo" width="100"></a>
+        </div>
+
+        <div class="menu-modal">
+            <nav class="main-nav">
+                <ul class="main-nav-ul">
+                    <li><a href="logo.html">Logo & Branding</a></li>
+                    <li><a href="articles.html">Articles</a></li>
+                    <li id="hide"> <!--display: none in smaller screens DEACTIVATED-->
+                        <img src="assets/images/logo.png" id="main-img" alt="mylogo" width="120">
+                    </li>
+                    <li><a href="dev.html">Web Development</a></li>
+                    <li id="show-ul"><a href="#">Other</a>
+                        <ul class="sub-nav-ul">
+                            <li><a href="#">Surf & Sea</a></li>
+                            <li><a href="#">Skate</a></li>
+                            <li><a href="#">Mountains</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -43,7 +52,7 @@
     <footer>
         <div class="div-footer">
             <div class="footer-nav">
-                <img src="assets/images/logo.png" alt="mylogo" width="90">
+                <a href="index.html"><img src="assets/images/logo.png" alt="mylogo" width="90"></a>
             </div>
             <div class="footer-nav">
                 <ul class="footer-nav-ul social-links">

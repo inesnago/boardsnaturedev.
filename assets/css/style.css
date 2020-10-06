@@ -269,29 +269,45 @@ section{
 
 @media only screen and (max-width:575px){ /*--- hide big logo and full menu set up on small screens and add toggle menu*/
 
-    #main-img{
-        display: none;
-    }
 
     .main-nav-ul>li{
         display: block;
-        text-align: left;
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    #hide, #main-img{
+        display: none;
+        width: 0px;
     }
 
     .main-nav{
-        width: 45%;
-        display: none;
-        font-size: 16px;
+        width: 50%;
+        display: inline-block;
     }
 
     .main-nav-ul{
         display: inline-block;
+        padding: 8px 0px;
+        text-align: center;
+    }
+
+    .sub-nav-ul{
+        position: relative;
+        text-align: center;
+        z-index: 2;
+    }
+
+    .sub-nav-ul>li{
+        padding: 8px 0px;
+        font-size: 20px;
+        z-index: 2;
     }
 
     .toggle-icon{
         display: inline-block;
-        font-size: 28px;
-        color: gray;
+        font-size: 30px;
+        color: #e0e0e0;
         position: relative;
         left: 10px;
         width: 45%;
@@ -304,18 +320,49 @@ section{
         width: 50%;
     }
 
-    #small-logo-screen{
-        vertical-align: top;
+    header{
+        margin-bottom: 10px;
     }
 
-    #horizontal-line{
-        color: gray;
-        border: 1px solid #e0e0e0; #e1bee7
-    }
-
-    .menu-toggle{
+    .menu-modal{
+        background-color:rgb(52,58,64, 0.7); /*rgb(52,58,64, 0.4)*/
+        display: none;
+        z-index: 1;
+        overflow: auto;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        padding-top: 110px; 
+        left: 0;
+        top: 0;
         text-align: center;
-        padding: 10px 70px;
-        margin-top: 0px;
     }
+
+    .social-links>li{
+        display: block;
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    #footer-img{
+        width: 70px;
+    }
+
+    .hero-message{
+        font-size: 14px;
+    }
+
+    .main-nav-ul>li>a{
+        color:white;
+    }
+
+    .logo-p{
+        padding: 0px 10px;
+    }
+
+    .col-article-one{
+        width: 90%;
+    }
+
+    
 }
