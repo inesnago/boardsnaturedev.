@@ -280,29 +280,42 @@ section{
 
     .main-nav{
         width: 45%;
-        display: inline-block;
+        display: none;
         font-size: 16px;
     }
 
     .main-nav-ul{
-        display:none;
+        display: inline-block;
     }
 
     .toggle-icon{
         display: inline-block;
-        font-size: 32px;
+        font-size: 28px;
         color: gray;
         position: relative;
-        top: 20px;
         left: 10px;
         width: 45%;
+        vertical-align: top;
     }
 
     .small-logo-div{
         text-align: right;
+        display: inline-block;
+        width: 50%;
     }
 
     #small-logo-screen{
         vertical-align: top;
+    }
+
+    #horizontal-line{
+        color: gray;
+        border: 1px solid #e0e0e0; #e1bee7
+    }
+
+    .menu-toggle{
+        text-align: center;
+        padding: 10px 70px;
+        margin-top: 0px;
     }
 }
