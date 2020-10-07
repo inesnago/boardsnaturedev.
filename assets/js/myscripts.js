@@ -26,6 +26,15 @@ $(document).ready(function(){
         $(".sub-nav-ul").show("fast");
     });
 
+    $(".dev-col").mouseenter(function(){
+        $(this).addClass("max");
+    })
+
+    $(".dev-col").mouseleave(function(){
+        $(this).removeClass("max");
+    })
+
+
    
 
 })

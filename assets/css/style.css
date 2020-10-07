@@ -474,11 +474,32 @@ section{
     font-weight: 300;
 }
 
+.dev-card{
+    vertical-align: top;
+    display: inline-block;
+    width: 45%;
+}
+
 .dev-col{
-    width: 100%
-    text-align:center;
+    width: 95%;
+    text-align: center;
 }
 
 .dev-col>img{
-    width: 80%;
+    width: 90%;
+}
+
+.dev-p{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 900px){
+    .dev-card{
+        width: 100%;
+        display: block;
+    }
+}
+
+.max{
+    width: 96%;
 }
