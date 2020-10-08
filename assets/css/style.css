@@ -572,11 +572,8 @@ section{
 }
 
 .privacy{
-    text-align: justify;
     font-size: 12px;
-}
-
-.privacy>h1{
-    font-weight: 300;
-    font-size: 12px;
+    width: 50%;
+    position: relative;
+    left: 25%;
 }
