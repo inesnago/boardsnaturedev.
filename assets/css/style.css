@@ -259,13 +259,15 @@ section{
 }
 
 @media only screen and (min-width:576px){ /* do not display small logo and toggle menu on big screens*/
-    .toggle-icon{
+    .toggle-icon, .small-logo-div{
         display: none;
     }
 
     #small-screen-logo{
         display: none;
     }
+
+    
 }
 
 @media only screen and (max-width:575px){ /*--- hide big logo and full menu set up on small screens and add toggle menu*/
@@ -520,4 +522,8 @@ section{
 .go-up-button>span{
     writing-mode: tb-rl;
     text-orientation: upright;
+}
+
+.hide-message{
+    display: none;
 }
