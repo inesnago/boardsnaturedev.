@@ -570,3 +570,13 @@ section{
         height: 50vw;
     }
 }
+
+.privacy{
+    text-align: justify;
+    font-size: 12px;
+}
+
+.privacy>h1{
+    font-weight: 300;
+    font-size: 12px;
+}
