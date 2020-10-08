@@ -501,5 +501,24 @@ section{
 }
 
 .max{
-    width: 96%;
+    border: 2px solid #dadada;
+    border-radius: 2px;
+    outline: none;
+    border-color:#b0bec5 ;
+    box-shadow: 0 0 10px#b0bec5 ;
+}
+
+.go-up-button{
+    position: fixed;
+    font-size: 20px;
+    top: 50%;
+    left: 90%;
+    color: #212121;
+    font-weight: bolder;
+    visibility: hidden;
+}
+
+.go-up-button>span{
+    writing-mode: tb-rl;
+    text-orientation: upright;
 }

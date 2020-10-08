@@ -34,9 +34,22 @@ $(document).ready(function(){
         $(this).removeClass("max");
     })
 
-
-   
-
 })
 
+var myGoUpButton = document.getElementById("go-up");
+
+window.onscroll = scrollUp()
+
+function scrollUp(){
+    if(document.body.scrollTop > 10 || document.documentElement.scrollTop > 10){
+        myGoUpButton.style.visibility = "visible";
+    } else{
+        myGoUpButton.style.visibility = "hidden";
+    }
+}
+
+function goUp(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
