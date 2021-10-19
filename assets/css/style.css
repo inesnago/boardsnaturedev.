@@ -534,9 +534,9 @@ section{
 }
 
 .message-other{
-    width: 50%;
+    width: 70%;
     position: relative;
-    left: 25%;
+    left: 15%;
     text-align: justify;
     letter-spacing: 4px;
     text-transform: uppercase;
